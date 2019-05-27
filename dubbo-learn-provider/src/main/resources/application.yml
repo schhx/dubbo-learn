@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dubbo-learn-provider
+
+server:
+  port: 8080
+
+dubbo:
+  application:
+    name: dubbo-learn-provider
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: zookeeper://127.0.0.1:2181

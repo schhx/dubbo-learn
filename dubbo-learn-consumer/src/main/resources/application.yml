@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dubbo-learn-consumer
+
+server:
+  port: 8082
+
+dubbo:
+  application:
+    name: dubbo-learn-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
